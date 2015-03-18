@@ -23,6 +23,7 @@ body {
 .wrap > .container {
     width: inherit;
     padding: 40px 15px 20px;
+    font-family: Tahoma;
 }
 
 .footer {
@@ -80,15 +81,16 @@ p {
   color: yellow;
   background: url(../images/kn-glw.png) no-repeat;
   }
-.solidblockmenu .active{
-  font-weight: bold;
-    color: #0000cc;
+.solidblockmenu .active{  
   background: url(../images/kn-red.png) no-repeat;
   /*background: transparent url(/fsite/blockactive.gif) center center repeat-x;*/
 }
-.solidblockmenu a:active{
-    
+
+li.active a{
+    font-weight: bold;
+    color: red;
 }
+
 /*========================================================*/
 
 .not-set {
