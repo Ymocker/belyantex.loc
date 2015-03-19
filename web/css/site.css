@@ -6,12 +6,17 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
 .wrap {
     width: 1000px;
     min-height: 100%;
     height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;    
+    margin: 0 auto -40px;
+    padding: 0 0 40px;    
 }
 
 .wrap > .head {
@@ -27,15 +32,20 @@ body {
 }
 
 .footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+    height: 40px;
+    background-color: #a94442;
+    border-top: 1px solid #ff0;
+    padding-top: 0px;
+    text-align: center;
+    color: #fff;
 }
 
-p {
-    font-size: 1.5em;
+.footer p {
+    font-size: 0.9em;
 }
+
+
+
 
 
 
